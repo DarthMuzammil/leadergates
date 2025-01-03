@@ -13,7 +13,7 @@ const products = [
   {
     name: "Sliding Doors",
     description: "Automatic sliding doors for commercial settings.",
-    image: "/homepage/Shutter1.webp"
+    image: "/homepage/automatic sliding doors.jpg"
   },
   {
     name: "Revolving Doors",
@@ -23,17 +23,17 @@ const products = [
   {
     name: "Shutters",
     description: "Durable roll-up shutters for garages and commercial spaces.",
-    image: "/homepage/FireRated.webp"
+    image: "/homepage/highspeed.jpg"
   },
   {
     name: "Garage Doors",
     description: "Reliable automatic garage doors for residential use.",
-    image: "/homepage/GarageDoor.webp"
+    image: "/homepage/garagedoors.jpg"
   },
   {
     name: "Gates & Accessories",
     description: "Various types of automatic gates and remote controls.",
-    image: "/homepage/Motor1.webp"
+    image: "/homepage/gate.jpg"
   },
 ];
 

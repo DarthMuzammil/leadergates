@@ -80,12 +80,12 @@ export default function Home() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <ProductCard
-                imageSrc="/homepage/Shutter2.webp"
+                imageSrc="/homepage/arun.jpg"
                 title="Galvanized Steel Rolling Shutter"
                 description="The Leadergates' Rolling Shutter Door are known for its high quality workmanship and reliable designs which serves to cater for residential, industrial and commercial purposes."
               />
               <ProductCard
-                imageSrc="/homepage/Shutter1.webp"
+                imageSrc="/homepage/gg.jpg"
                 title="Side Motor & Tubular Motor"
                 description="We have all types of rolling shutter motors including high-speed motors. Rolling Shutter Side Motors according to your requirements. We replace and fix rolling shutter motors also."
               />
@@ -106,17 +106,17 @@ Aluminum Insulated roller shutter door are ideal for areas where energy conserva
                 description="The business that needs protection in a not-completely-enclosed environment such as a business in an indoor mall, school, airport, convention center or related locations security grill shutters may be the answer for requirements."
               />
               <ProductCard
-                imageSrc="/homepage/FireRated.webp"
+                imageSrc="/homepage/aj.jpg"
                 title="Fire Rated Shutters"
                 description="Leadergates' Steel Fire Rated Rolling Shutters are part of a passive fire protection system to reduce the spread of smoke or fire  between compartments and to enable safe exit from a building or structure with tested and approved door hardware ."
               />
               <ProductCard
-                imageSrc="/homepage/RollUpDoors.webp"
+                imageSrc="/homepage/ck.jpg"
                 title="Roll Up Doors"
                 description="Pre painted Continued sheet Roll Up Doors provides the convenience of installation with the look of most popular sectional door with cheaper prices. Roller Shutters provide high strength security and are easy to operate."
               />
               <ProductCard
-                imageSrc="/homepage/HighSpeedShutter.webp"
+                imageSrc="/homepage/highspeed.jpg"
                 title="High Speed Shutters"
                 description="Leadergates' High Speed Doors is a effective product plus energy savings. We work with dedication and passion since 2009 to offer to our customers the best value for money and reliable and durable  high speed PVC doors."
               />
