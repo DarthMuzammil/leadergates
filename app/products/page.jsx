@@ -12,28 +12,28 @@ import { DoorOpenIcon as Gate, Phone, Mail, Globe } from "lucide-react";
 const products = [
   {
     name: "Sliding Doors",
-    description: "Automatic sliding doors for commercial settings.",
+    description: "Experience elegance and convenience with our premium sliding doors—engineered for smooth operation, space efficiency, and a modern aesthetic that complements any setting.",
     image: "/homepage/automatic sliding doors.jpg"
   },
   {
-    name: "Revolving Doors",
-    description: "Elegant revolving door systems for grand entrances.",
-    image: "/homepage/RollUpDoors.webp"
+    name: "Rolling Shutters",
+    description: "Elevate your entrances with our sleek and modern revolving doors—designed for seamless functionality, energy efficiency, and a touch of sophistication that leaves a lasting impression.",
+    image: "/homepage/rollingShutters.jpg"
   },
   {
     name: "Shutters",
-    description: "Durable roll-up shutters for garages and commercial spaces.",
+    description: " Combine security, style, and functionality with our premium shutters—crafted to protect your spaces while adding a sleek, modern touch to your property. Perfect for homes, businesses, and industrial needs. ",
     image: "/homepage/highspeed.jpg"
   },
   {
     name: "Garage Doors",
-    description: "Reliable automatic garage doors for residential use.",
+    description: "Enhance your space with our premium garage doors—designed for durability, smooth operation, and modern aesthetics that complement any property.",
     image: "/homepage/garagedoors.jpg"
   },
   {
     name: "Gates & Accessories",
-    description: "Various types of automatic gates and remote controls.",
-    image: "/homepage/gate.jpg"
+    description: "Discover a perfect blend of security and style with our premium gates and accessories. From robust gate motors to sleek barriers, we offer innovative solutions tailored to enhance convenience, safety, and elegance for your property.",
+    image: "/homepage/gatesAndacceseries.jpg"
   },
 ];
 
