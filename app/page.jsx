@@ -80,45 +80,51 @@ export default function Home() {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               <ProductCard
-                imageSrc="/homepage/Shutter2.webp"
-                title="Galvanized Steel Rolling Shutter"
-                description="The Leadergates' Rolling Shutter Door are known for its high quality workmanship and reliable designs which serves to cater for residential, industrial and commercial purposes."
+                imageSrc="/homepage/RollingShutter.jpg"
+                title="Rolling Shutter"
+                description="Secure your spaces effortlessly with sleek, sturdy, and customizable rolling shutters designed for homes and businesses alike.
+
+."
               />
               <ProductCard
-                imageSrc="/homepage/Shutter1.webp"
-                title="Side Motor & Tubular Motor"
-                description="We have all types of rolling shutter motors including high-speed motors. Rolling Shutter Side Motors according to your requirements. We replace and fix rolling shutter motors also."
+                imageSrc="/homepage/motor.jpg"
+                title="Sliding Gate Motor"
+                description="Experience the power of automation with our sliding gate motors, blending speed, strength, and reliability for effortless access control."
               />
               <ProductCard
-                imageSrc="/homepage/PolycarbonateRollingShutter1.webp"
-                title="Polycarbonate Rolling Shutters"
-                description="Anti UV Transparent Polycarbonate Rolling Shutter Door with aluminum tubes. Maxwell always custom built polycarbonate rolling shutters which combines the transparency and strength of polycarbonate with extruded aluminum joining slat."
+                imageSrc="/homepage/garagedoors.jpg"
+                title="Over Head Garage Door"
+                description="Elevate your garage with our durable and stylish overhead doors, built for smooth operation and ultimate convenience."
               />
               <ProductCard
-                imageSrc="/homepage/InsulatedAluminium.webp"
-                title="Insulated Aluminium Rolling Shutter"
-                description="
-Aluminum Insulated roller shutter door are ideal for areas where energy conservation is of prime concern, such as Warehouses, distribution centers, garages/factories, equipment noise partitioning, paint spray booths, maintenance buildings and storage facilities."
+                imageSrc="/homepage/gatebarrier.jpg"
+                title="Gate Barrier"
+                description="Control traffic with precision using our robust gate barriers—perfect for parking lots and secure entry points.."
               />
               <ProductCard
-                imageSrc="/homepage/GrillShutters.webp"
-                title="Grill Shutters"
-                description="The business that needs protection in a not-completely-enclosed environment such as a business in an indoor mall, school, airport, convention center or related locations security grill shutters may be the answer for requirements."
+                imageSrc="/homepage/slidingGate.jpg"
+                title="Sliding Gate"
+                description="Add elegance and functionality to your property with sliding gates, offering smooth movement and modern aesthetics."
               />
               <ProductCard
-                imageSrc="/homepage/FireRated.webp"
+                imageSrc="/homepage/fireratedShutter.jpg"
                 title="Fire Rated Shutters"
-                description="Leadergates' Steel Fire Rated Rolling Shutters are part of a passive fire protection system to reduce the spread of smoke or fire  between compartments and to enable safe exit from a building or structure with tested and approved door hardware ."
+                description="Shield your property with our fire-rated shutters, engineered for top-notch safety and durability, offering seamless fire resistance without compromising style."
               />
               <ProductCard
-                imageSrc="/homepage/RollUpDoors.webp"
-                title="Roll Up Doors"
-                description="Pre painted Continued sheet Roll Up Doors provides the convenience of installation with the look of most popular sectional door with cheaper prices. Roller Shutters provide high strength security and are easy to operate."
+                imageSrc="/homepage/fastdoororsinglegate.jpg"
+                title="Fast Door / Single Gate"
+                description="Speed meets style in our fast doors and single gates, delivering quick access with a sleek design tailored for busy environments."
               />
               <ProductCard
-                imageSrc="/homepage/HighSpeedShutter.webp"
-                title="High Speed Shutters"
-                description="Leadergates' High Speed Doors is a effective product plus energy savings. We work with dedication and passion since 2009 to offer to our customers the best value for money and reliable and durable  high speed PVC doors."
+                imageSrc="/homepage/automaticperforaterollingshutter.jpg"
+                title="Automatic Perforate Rolling Shutter"
+                description="Combine security and visibility with automatic perforated rolling shutters—perfect for showcasing while keeping things safe."
+              />
+              <ProductCard
+                imageSrc="/homepage/swinggate.jpg"
+                title="Swing Gate"
+                description="Classic charm meets advanced technology with our automatic swing gates, ensuring graceful entry every time."
               />
             </div>
           </div>
