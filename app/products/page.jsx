@@ -74,7 +74,14 @@ function ProductCard({ name, description, image }) {
         <p className="text-gray-600">{description}</p>
       </CardContent>
       <CardFooter>
-        <Button className="w-full">Enquire</Button>
+        <a
+          href="https://wa.me/971504085867?text=Hello"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full"
+        >
+          <Button className="w-full">Contact Us</Button>
+        </a>
       </CardFooter>
     </Card>
   );

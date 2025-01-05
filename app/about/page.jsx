@@ -8,7 +8,7 @@ export default function AboutPage() {
       <section className="mb-12">
         <h2 className="text-2xl font-semibold mb-4">Welcome to Leader Gate Automatic Doors</h2>
         <p className="text-gray-700 mb-4">
-          Leader Gate is a leading provider of Automatic Gate, Doors, Barriers & Security Control Solutions. We specialize in the design and installation of high-quality motorized steel gates, automatic doors, barriers, roll up shutters, and parking shutters.
+          Leader Gate is a leading provider of Automatic Gate, Doors, Barriers & Security Control Solutions. We specialize in the design and installation of high-quality motorized steel and aluminium gates, automatic doors, barriers, roll up shutters, and parking shutters.
         </p>
         <p className="text-gray-700 mb-4">
           Our products are designed to meet the specific needs of our clients and are available in a variety of styles, sizes, and colors to suit any property. We are committed to delivering exceptional service and strive to exceed our clients' expectations.
