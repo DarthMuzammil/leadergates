@@ -25,13 +25,13 @@ export default function Home() {
                 state-of-the-art automatic gates and doors.
               </p>
               <Link
-              href="https://wa.me/971504085867?text=Hello"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Button className="bg-white text-blue-600 hover:bg-blue-50">
-                Get a Quote
-              </Button>
+                href="https://wa.me/971504085867?text=Hello"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button className="bg-white text-blue-600 hover:bg-blue-50">
+                  Get a Quote
+                </Button>
               </Link>
             </div>
             <div className="md:w-1/2">
@@ -179,7 +179,17 @@ function ProductCard({ imageSrc, title, description }) {
       <div className="p-6">
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
         <p className="text-gray-600 mb-4">{description}</p>
-        <Button variant="outline">Learn More</Button>
+        <a
+          href="https://wa.me/971504085867?text=Hello"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="w-full"
+        >
+          <Button className="w-auto bg-blue-600 text-white hover:bg-blue-700 shadow-md">
+            Make an Enquiry
+          </Button>
+          {/* <Button variant="outline"></Button> */}
+        </a>
       </div>
     </div>
   );

@@ -1,6 +1,5 @@
 "use client";
-import { DoorOpenIcon as Gate, Phone, Mail, Globe } from "lucide-react"
-
+import { DoorOpenIcon as Gate, Phone, Mail, Globe } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -25,7 +24,7 @@ export default function Footer() {
             <div className="flex items-center mb-2">
               <Phone className="h-5 w-5 mr-2" />
               <a href="tel:+971505789030" className="hover:text-blue-400">
-                505789030
+                +971-505789030
               </a>
             </div>
             <div className="flex items-center mb-2">

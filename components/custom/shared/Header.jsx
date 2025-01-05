@@ -25,7 +25,7 @@ export default function Header() {
         <nav>
           <ul className="flex space-x-6">
             <li>
-              <Link href="#" className="text-gray-600 hover:text-blue-600">
+              <Link href="/" className="text-gray-600 hover:text-blue-600">
                 Home
               </Link>
             </li>
@@ -43,7 +43,7 @@ export default function Header() {
               </Link>
             </li>
             <li>
-              <Link href="#" className="text-gray-600 hover:text-blue-600">
+              <Link href="https://wa.me/971504085867?text=Hello" target="_blank" className="text-gray-600 hover:text-blue-600">
                 Contact
               </Link>
             </li>
