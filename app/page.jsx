@@ -14,7 +14,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-blue-600 text-white py-20">
+        <section className=" text-black py-20">
           <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -82,9 +82,7 @@ export default function Home() {
               <ProductCard
                 imageSrc="/homepage/RollingShutter.jpg"
                 title="Rolling Shutter"
-                description="Secure your spaces effortlessly with sleek, sturdy, and customizable rolling shutters designed for homes and businesses alike.
-
-."
+                description="Secure your spaces effortlessly with sleek, sturdy, and customizable rolling shutters designed for homes and businesses alike.."
               />
               <ProductCard
                 imageSrc="/homepage/motor.jpg"
