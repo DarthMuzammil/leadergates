@@ -14,7 +14,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
       <main className="flex-grow">
         {/* Hero Section */}
-        <section className="bg-blue-600 text-white py-20">
+        <section className="bg-blue-400 text-white py-20">
           <div className="container mx-auto px-4 flex flex-col md:flex-row items-center">
             <div className="md:w-1/2 mb-10 md:mb-0">
               <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -131,7 +131,7 @@ export default function Home() {
         </section>
 
         {/* CTA Section */}
-        <section className="bg-blue-600 text-white py-20">
+        <section className="bg-blue-400 text-white py-20">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-3xl font-bold mb-4">
               Ready to Upgrade Your Security?
@@ -185,7 +185,7 @@ function ProductCard({ imageSrc, title, description }) {
           rel="noopener noreferrer"
           className="w-full"
         >
-          <Button className="w-auto bg-blue-600 text-white hover:bg-blue-700 shadow-md">
+          <Button className="w-auto bg-blue-400 text-white hover:bg-blue-700 shadow-md">
             Make an Enquiry
           </Button>
           {/* <Button variant="outline"></Button> */}

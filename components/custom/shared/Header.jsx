@@ -15,7 +15,7 @@ export default function Header() {
       <div className="container mx-auto px-4 py-4 flex justify-between items-center">
         <Link href="/">
           <div className="flex items-center space-x-2">
-            <Gate className="h-8 w-8 text-blue-600" />
+          <img src="/fuad.svg"  className="h-20 w-80 flex justify-between items-center object-cover" />
             <span href="/" className="text-2xl font-bold text-gray-800">
               Leadergates Automatic Doors
             </span>
