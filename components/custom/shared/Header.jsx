@@ -1,55 +1,97 @@
 "use client";
 
 import Link from "next/link";
-import {
-  DoorOpenIcon as Gate,
-  DoorOpen,
-  Shield,
-  Clock,
-  Phone,
-} from "lucide-react";
+import { useState } from "react";
+import { Menu } from 'lucide-react';
 
 export default function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header className="bg-white shadow-sm">
-      <div className="container mx-auto px-4 py-4 flex justify-between items-center">
-        <Link href="/">
-          <div className="flex items-center space-x-2">
-            <Gate className="h-8 w-8 text-blue-600" />
-            <span href="/" className="text-2xl font-bold text-gray-800">
-              Leadergates Automatic Doors
-            </span>
-          </div>
-        </Link>
+      <div className="container mx-auto px-4 py-4">
+        <div className="flex justify-between items-center">
+          <Link href="/">
+            <div className="flex items-center space-x-2">
+            <img src="/logo.svg"  className="h-20 w-80 flex justify-between items-center object-cover sm:h-20 sm:w-80 sm:mr-4 sm:float-right" />
+              <span className="text-xl font-bold text-gray-800 hidden sm:inline">
+                Leadergates Automatic Doors
+              </span>
+            </div>
+          </Link>
 
-        <nav>
-          <ul className="flex space-x-6">
-            <li>
-              <Link href="/" className="text-gray-600 hover:text-blue-600">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/products"
-                className="text-gray-600 hover:text-blue-600"
-              >
-                Products
-              </Link>
-            </li>
-            <li>
-              <Link href="/about" className="text-gray-600 hover:text-blue-600">
-                About
-              </Link>
-            </li>
-            <li>
-              <Link href="https://wa.me/971504085867?text=Hello" target="_blank" className="text-gray-600 hover:text-blue-600">
-                Contact
-              </Link>
-            </li>
-          </ul>
-        </nav>
+          <nav className="hidden md:block">
+            <ul className="flex space-x-6">
+              <li>
+                <Link href="/" className="text-gray-600 hover:text-blue-600">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/products"
+                  className="text-gray-600 hover:text-blue-600"
+                >
+                  Products
+                </Link>
+              </li>
+              <li>
+                <Link href="/about" className="text-gray-600 hover:text-blue-600">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link href="https://wa.me/971504085867?text=Hello" target="_blank" className="text-gray-600 hover:text-blue-600">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </nav>
+
+          <button
+            className="md:hidden text-gray-600 hover:text-blue-600"
+            onClick={toggleMenu}
+            aria-label="Toggle menu"
+          >
+            <Menu size={24} />
+          </button>
+        </div>
+
+        {isMenuOpen && (
+          <nav className="mt-4 md:hidden">
+            <ul className="flex flex-col space-y-2">
+              <li>
+                <Link href="/" className="text-gray-600 hover:text-blue-600 block py-2">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/products"
+                  className="text-gray-600 hover:text-blue-600 block py-2"
+                >
+                  Products
+                </Link>
+              </li>
+              <li>
+                <Link href="/about" className="text-gray-600 hover:text-blue-600 block py-2">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link href="https://wa.me/971504085867?text=Hello" target="_blank" className="text-gray-600 hover:text-blue-600 block py-2">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </nav>
+        )}
       </div>
     </header>
   );
 }
+
