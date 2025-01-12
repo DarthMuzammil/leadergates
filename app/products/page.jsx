@@ -80,7 +80,7 @@ function ProductCard({ name, description, image }) {
           rel="noopener noreferrer"
           className="w-full"
         >
-          <Button className="w-full">Contact Us</Button>
+          <Button className="w-full bg-blue-400">Contact Us</Button>
         </a>
       </CardFooter>
     </Card>
