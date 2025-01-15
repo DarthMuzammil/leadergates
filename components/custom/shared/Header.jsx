@@ -17,9 +17,9 @@ export default function Header() {
         <div className="flex justify-between items-center">
           <Link href="/">
             <div className="flex items-center space-x-2">
-            <img src="/logo.svg"  className="h-20 w-80 flex justify-between items-center object-cover sm:h-20 sm:w-80 sm:mr-4 sm:float-right" />
+            <img src="/logo.svg"  className="h-50 w-100 flex justify-between items-center object-cover sm:h-20 sm:w-80 sm:mr-4 sm:float-right" />
               <span className="text-xl font-bold text-gray-800 hidden sm:inline">
-                Leadergates Automatic Doors
+                LEADERGATES AUTOMATIC DOORS
               </span>
             </div>
           </Link>
@@ -27,25 +27,25 @@ export default function Header() {
           <nav className="hidden md:block">
             <ul className="flex space-x-6">
               <li>
-                <Link href="/" className="text-gray-600 hover:text-blue-600">
+                <Link href="/" className="text-gray-600 hover:text-[rgb(142,22,22)]">
                   Home
                 </Link>
               </li>
               <li>
                 <Link
                   href="/products"
-                  className="text-gray-600 hover:text-blue-600"
+                  className="text-gray-600 hover:text-[rgb(142,22,22)]"
                 >
                   Products
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray-600 hover:text-blue-600">
+                <Link href="/about" className="text-gray-600 hover:text-[rgb(142,22,22)]">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="https://wa.me/971504085867?text=Hello" target="_blank" className="text-gray-600 hover:text-blue-600">
+                <Link href="https://wa.me/971504085867?text=Hello" target="_blank" className="text-gray-600 hover:text-[rgb(142,22,22)]">
                   Contact
                 </Link>
               </li>
@@ -53,7 +53,7 @@ export default function Header() {
           </nav>
 
           <button
-            className="md:hidden text-gray-600 hover:text-blue-600"
+            className="md:hidden text-gray-600 hover:text-[rgb(142,22,22)]"
             onClick={toggleMenu}
             aria-label="Toggle menu"
           >
@@ -65,25 +65,25 @@ export default function Header() {
           <nav className="mt-4 md:hidden">
             <ul className="flex flex-col space-y-2">
               <li>
-                <Link href="/" className="text-gray-600 hover:text-blue-600 block py-2">
+                <Link href="/" className="text-gray-600 hover:text-[rgb(142,22,22)] block py-2">
                   Home
                 </Link>
               </li>
               <li>
                 <Link
                   href="/products"
-                  className="text-gray-600 hover:text-blue-600 block py-2"
+                  className="text-gray-600 hover:text-[rgb(142,22,22)] block py-2"
                 >
                   Products
                 </Link>
               </li>
               <li>
-                <Link href="/about" className="text-gray-600 hover:text-blue-600 block py-2">
+                <Link href="/about" className="text-gray-600 hover:text-[rgb(142,22,22)] block py-2">
                   About
                 </Link>
               </li>
               <li>
-                <Link href="https://wa.me/971504085867?text=Hello" target="_blank" className="text-gray-600 hover:text-blue-600 block py-2">
+                <Link href="https://wa.me/971504085867?text=Hello" target="_blank" className="text-gray-600 hover:text-[rgb(142,22,22)] block py-2">
                   Contact
                 </Link>
               </li>
