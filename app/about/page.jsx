@@ -89,7 +89,7 @@ export default function AboutPage() {
             "Marina Village Community",
             "Al Raha Gardens"
           ].map((client, index) => (
-            <li key={index} className="bg-blue-100 p-4 rounded-lg text-center">{client}</li>
+            <li key={index} className="bg-red-100 p-4 rounded-lg text-center">{client}</li>
           ))}
         </ul>
       </section>
