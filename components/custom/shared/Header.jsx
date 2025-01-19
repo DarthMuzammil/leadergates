@@ -17,7 +17,7 @@ export default function Header() {
         <div className="flex justify-between items-center">
           <Link href="/">
             <div className="flex items-center space-x-2">
-            <img src="/logo.svg"  className="h-50 w-100 flex justify-between items-center object-cover sm:h-20 sm:w-80 sm:mr-4 sm:float-right" />
+            <img src="/logo.svg"  className="h-20 w-80 flex justify-between items-center object-cover sm:h-20 sm:w-80 sm:mr-4 sm:float-right" />
               <span className="text-xl font-bold text-gray-800 hidden sm:inline">
                 LEADERGATES AUTOMATIC DOORS
               </span>
