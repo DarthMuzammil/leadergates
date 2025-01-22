@@ -41,57 +41,106 @@ const products = [
     title: "Over Head Garage Door",
     description: "Elevate your garage with our durable and stylish overhead doors, built for smooth operation and ultimate convenience.",
     imageSrc: "/homepage/garagedoors.jpg",
-    features: [],
-    applications: ""
+    features: [
+      "Constructed with high-quality steel or aluminum for durability",
+      "Insulated panels for enhanced thermal efficiency",
+      "Smooth and quiet operation with precision-engineered tracks",
+      "Available in a variety of styles and finishes to suit any aesthetic",
+      "Equipped with advanced security locking mechanisms",
+      "Manual and motorized options with remote control accessibility"
+    ],
+    applications: "Ideal for residential garages, commercial facilities, and industrial warehouses. Provides reliable security, insulation, and ease of access while complementing the overall property aesthetics."
   },
   {
     slug: "gate-barrier",
     title: "Gate Barrier",
     description: "Control traffic with precision using our robust gate barriers—perfect for parking lots and secure entry points.",
     imageSrc: "/homepage/gatebarrier.jpg",
-    features: [],
-    applications: ""
-  },
-  {
-    slug: "sliding-gate",
-    title: "Sliding Gate",
-    description: "Add elegance and functionality to your property with sliding gates, offering smooth movement and modern aesthetics.",
-    imageSrc: "/homepage/slidingGate.jpg",
-    features: [],
-    applications: ""
-  },
-  {
-    slug: "fire-rated-shutters",
-    title: "Fire Rated Shutters",
-    description: "Shield your property with our fire-rated shutters, engineered for top-notch safety and durability, offering seamless fire resistance without compromising style.",
-    imageSrc: "/homepage/fireratedShutter.jpg",
-    features: [],
-    applications: ""
-  },
-  {
-    slug: "fast-door-single-gate",
-    title: "Fast Door / Single Gate",
-    description: "Speed meets style in our fast doors and single gates, delivering quick access with a sleek design tailored for busy environments.",
-    imageSrc: "/homepage/fastdoororsinglegate.jpg",
-    features: [],
-    applications: ""
-  },
-  {
-    slug: "automatic-perforate-rolling-shutter",
-    title: "Automatic Perforate Rolling Shutter",
-    description: "Combine security and visibility with automatic perforated rolling shutters—perfect for showcasing while keeping things safe.",
-    imageSrc: "/homepage/automaticperforaterollingshutter.jpg",
-    features: [],
-    applications: ""
-  },
-  {
-    slug: "swing-gate",
-    title: "Swing Gate",
-    description: "Classic charm meets advanced technology with our automatic swing gates, ensuring graceful entry every time.",
-    imageSrc: "/homepage/swinggate.jpg",
-    features: [],
-    applications: ""
-  },
+    features: [
+      "Durable construction with weather-resistant materials",
+      "Fast and smooth operation for efficient traffic management",
+      "Integration with access control systems like RFID and biometric scanners",
+      "Customizable boom lengths to suit various entry sizes",
+      "Manual override option for emergency situations",
+      "LED indicators for enhanced visibility and safety"
+    ],
+    applications: "Ideal for parking lots, toll booths, residential complexes, and commercial properties. Ensures seamless access control and security management with minimal manual intervention."
+},
+{
+  slug: "sliding-gate",
+  title: "Sliding Gate",
+  description: "Add elegance and functionality to your property with sliding gates, offering smooth movement and modern aesthetics.",
+  imageSrc: "/homepage/slidingGate.jpg",
+  features: [
+    "Heavy-duty steel or aluminum construction for durability",
+    "Space-saving design ideal for properties with limited driveway space",
+    "Smooth and silent operation with precision track system",
+    "Available in manual and automated options with remote control",
+    "Weather-resistant coating for long-lasting performance",
+    "Customizable designs, colors, and finishes to suit any architectural style"
+  ],
+  applications: "Perfect for residential driveways, industrial complexes, and commercial properties. Provides enhanced security while maximizing space efficiency and aesthetic appeal."
+},
+{
+  slug: "fire-rated-shutters",
+  title: "Fire Rated Shutters",
+  description: "Shield your property with our fire-rated shutters, engineered for top-notch safety and durability, offering seamless fire resistance without compromising style.",
+  imageSrc: "/homepage/fireratedShutter.jpg",
+  features: [
+    "Tested and certified for fire resistance up to industry standards",
+    "Constructed from high-quality galvanized steel for maximum strength",
+    "Automatic closing mechanism activated during fire emergencies",
+    "Smoke and heat insulation to prevent fire spread",
+    "Customizable sizes and finishes to match building aesthetics",
+    "Manual and motorized operation with fail-safe controls"
+  ],
+  applications: "Ideal for warehouses, commercial kitchens, shopping malls, and industrial facilities. Provides superior fire protection while ensuring compliance with safety regulations."
+},
+{
+  slug: "fast-door-single-gate",
+  title: "Fast Door / Single Gate",
+  description: "Speed meets style in our fast doors and single gates, delivering quick access with a sleek design tailored for busy environments.",
+  imageSrc: "/homepage/fastdoororsinglegate.jpg",
+  features: [
+    "High-speed operation for efficient traffic flow",
+    "Durable construction with corrosion-resistant materials",
+    "Smooth and quiet performance with advanced motor technology",
+    "Customizable sizes, colors, and finishes to suit any space",
+    "Safety sensors and emergency stop features for enhanced protection",
+    "Energy-efficient design with excellent insulation properties"
+  ],
+  applications: "Perfect for warehouses, logistics hubs, hospitals, and commercial buildings. Ensures rapid access while maintaining security and energy efficiency."
+},
+{
+  slug: "automatic-perforate-rolling-shutter",
+  title: "Automatic Perforate Rolling Shutter",
+  description: "Combine security and visibility with automatic perforated rolling shutters—perfect for showcasing while keeping things safe.",
+  imageSrc: "/homepage/automaticperforaterollingshutter.jpg",
+  features: [
+    "High-strength perforated steel or aluminum construction",
+    "Motorized operation with remote and manual override options",
+    "Enhanced ventilation and visibility without compromising security",
+    "Powder-coated finish for corrosion resistance and durability",
+    "Smooth and quiet rolling mechanism for effortless use",
+    "Customizable perforation patterns to suit branding needs"
+  ],
+  applications: "Ideal for retail stores, showrooms, malls, and commercial buildings. Provides an excellent balance of security and product visibility while maintaining airflow and aesthetics."
+},
+{
+  slug: "swing-gate",
+  title: "Swing Gate",
+  description: "Classic charm meets advanced technology with our automatic swing gates, ensuring graceful entry every time.",
+  imageSrc: "/homepage/swinggate.jpg",
+  features: [
+    "Sturdy steel or aluminum construction for long-lasting durability",
+    "Smooth and silent operation with precision-engineered hinges",
+    "Manual and automated options with remote access control",
+    "Weather-resistant coating to withstand harsh conditions",
+    "Safety sensors and obstacle detection for secure operation",
+    "Customizable designs, finishes, and sizes to suit any property"
+  ],
+  applications: "Perfect for residential driveways, gated communities, commercial buildings, and industrial premises. Offers an elegant and secure solution with minimal maintenance."
+},
 ];
 
 export default function Home() {
